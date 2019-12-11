@@ -6,7 +6,8 @@
   },
   "autoload": {
     "psr-4": {   
-      "Classes\\": "src/Classes"
+      "Classes\\": "src/Classes",
+      "Interfaces\\": "src/Interfaces"
     }
   },
   "require-dev": {

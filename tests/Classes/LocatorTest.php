@@ -22,6 +22,7 @@ class LocatorTest extends TestCase
     $locator = new Locator($client, 'key');
     $location = $locator->locate(new Ip('8.8.8.8'));
 
+
     self::assertNotNull($location);
     self::assertEquals('United States', $location->getCountry());
     self::assertEquals('California', $location->getRegion());

@@ -4,8 +4,9 @@ namespace Classes;
 
 use Classes\Ip;
 use Classes\Location;
+use Interfaces\Locator;
 
-class Locator
+class IpInfoLocator implements Locator // конкретная логика отдельного сервиса API
 {
 
   private $client;
@@ -24,6 +25,8 @@ class Locator
     ]);
 
     $response = $this->client->get($url);
+
+    print_r($response);
  
     $data = json_decode($response, true);
 
