@@ -3,8 +3,6 @@
 namespace Classes;
 
 use Interfaces\Locator;
-use Classes\Ip;
-use Classes\ErrorHandler;
 
 class ChainLocator implements Locator
 {

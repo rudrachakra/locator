@@ -2,7 +2,7 @@
 
 namespace Classes;
 
-use Classes\Ip;
+
 use Classes\Location;
 
 class Locator

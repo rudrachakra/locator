@@ -2,7 +2,6 @@
 
 namespace Classes;
 
-use Classes\Ip;
 use Classes\Location;
 use Interfaces\Locator;
 
